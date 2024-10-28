@@ -1,0 +1,46 @@
+h2{
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Fonte personalizada */
+    font-size: 2em; /* Tamanho maior */
+    color: #2c3e50; /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado */
+    margin: 20px 0; /* Espaçamento em cima e embaixo */
+    text-transform: uppercase; /* Letras maiúsculas */
+    
+    padding: 10px 0; /* Espaçamento interno */
+    transition: color 0.3s; /* Transição suave */
+    color: #6d361e; 
+}
+p {
+    font-family: 'Arial', sans-serif; /* Tipo de fonte */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Altura da linha */
+    margin: 10px 0; /* Margens superior e inferior */
+    padding: 5px; /* Preenchimento interno */
+    
+    border-left: 4px solid #ffffff; /* Borda à esquerda */
+    text-align: justify; /* Justifica o texto */
+    text-indent: 10px; /* Recuo na primeira linha */
+}
+/* Importando uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Montserrat:wght@600&display=swap');
+
+h2{
+    font-family: 'Roboto', sans-serif; /* Fonte para o título principal */
+    font-size: 36px; /* Tamanho da fonte */
+    color: #4e95dc; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    margin: 20px 0; /* Margens superior e inferior */
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif; /* Fonte para o subtítulo */
+    font-size: 24px; /* Tamanho da fonte */
+    color: #34495e; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    margin: 10px 0; /* Margens superior e inferior */
+    font-weight: 600; /* Peso da fonte */
+}
